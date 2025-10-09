@@ -9,6 +9,7 @@ public class TC_001_RegisterUser extends TestBase {
 	public void RegisterUser()
 	{
 		HomePage hp=new HomePage(driver);
+		hp.SignUpSignIn();
 		
 	}
 }

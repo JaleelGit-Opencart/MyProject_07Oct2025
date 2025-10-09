@@ -13,7 +13,7 @@ public class HomePage extends BasePage {
 		super(driver);
 	}
 	
-	@FindBy(linkText = " Signup / Login") WebElement Lnk_SignUpSignIn_Ele;
+	@FindBy(linkText = "Signup / Login") WebElement Lnk_SignUpSignIn_Ele;
 	
 	public String PageTitle()
 	{
