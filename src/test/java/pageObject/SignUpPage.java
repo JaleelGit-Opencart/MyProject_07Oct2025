@@ -7,7 +7,7 @@ import org.openqa.selenium.support.ui.Select;
 
 public class SignUpPage extends BasePage {
 
-	SignUpPage(WebDriver driver)
+	public SignUpPage(WebDriver driver)
 	{
 		super(driver);
 	}
@@ -56,7 +56,7 @@ public class SignUpPage extends BasePage {
 	public void SetMonth()
 	{
 		Select s= new Select(drop_SelectMonth_ele);
-		s.selectByVisibleText("9");
+		s.selectByVisibleText("September");
 	}
 	
 	public void SetYear()

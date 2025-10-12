@@ -1,23 +1,89 @@
 package baseTest;
 
+import java.io.File;
+import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.time.Duration;
+import java.util.Date;
+import java.util.Random;
+import java.util.ResourceBundle;
+
+import org.apache.commons.io.FileUtils;
+import org.apache.commons.lang3.RandomStringUtils;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.*;
 
 public class TestBase {
 
 	public WebDriver driver;
+	public ResourceBundle rb;
+	public Logger logger;
 	@BeforeClass
-	public void SetUp()
+	@Parameters("browser")
+	public void SetUp(String br)
 	{
-		driver= new ChromeDriver();
+		rb= ResourceBundle.getBundle("config");
+		logger=LogManager.getLogger(this.getClass());
+		if(br.equals("chrome"))
+		{
+			driver= new ChromeDriver();
+		}else if(br.equals("edge"))
+		{
+			driver= new EdgeDriver();
+		}else
+		{
+			driver= new FirefoxDriver();
+		}
+		
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.manage().window().maximize();
 		driver.get("https://automationexercise.com/");
+		
 	}
 	
 	@AfterClass
 	public void tearDown()
 	{
 		driver.quit();
+	}
+	
+	// random strings
+	
+	public String alpha()
+	{
+		return RandomStringUtils.randomAlphabetic(5);
+	}
+	
+	public String numeric()
+	{
+		return RandomStringUtils.randomNumeric(10);
+	}
+	
+	public String alphaNumeric()
+	{
+		return RandomStringUtils.randomAlphanumeric(6);
+	}
+	
+	public String captureScreen(String tname) throws IOException {
+
+		String timeStamp = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
+				
+		TakesScreenshot takesScreenshot = (TakesScreenshot) driver;
+		File source = takesScreenshot.getScreenshotAs(OutputType.FILE);
+		String destination = System.getProperty("user.dir") + "\\screenshots\\" + tname + "_" + timeStamp + ".png";
+
+		try {
+			FileUtils.copyFile(source, new File(destination));
+		} catch (Exception e) {
+			e.getMessage();
+		}
+		return destination;
 	}
 }

@@ -6,7 +6,7 @@ import org.openqa.selenium.support.FindBy;
 
 public class SignInPage extends BasePage {
 
-	SignInPage(WebDriver driver)
+	public SignInPage(WebDriver driver)
 	{
 		super(driver);
 	}
