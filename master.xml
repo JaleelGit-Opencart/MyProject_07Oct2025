@@ -8,8 +8,10 @@
 
   <test thread-count="2" name = "Test">
       <parameter name="browser" value="chrome"/>
+      <parameter name="ExpectedUsername" value="jaleel"/>
     <classes>
-      <class name= "testCases.TC_001_RegisterUser"/> 	
+      <!--<class name= "testCases.TC_001_RegisterUser"/> -->
+      <class name = "testCases.TC_002_Login_ValidCredentials" />	
     </classes>	
   </test>
 </suite>
