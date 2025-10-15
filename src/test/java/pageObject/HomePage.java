@@ -19,7 +19,12 @@ public class HomePage extends BasePage {
 	
 	@FindBy(linkText = "Signup / Login") WebElement Lnk_SignUpSignIn_Ele;
 	@FindBy(xpath="//ul[@class=\"nav navbar-nav\"]/descendant::a[last()]") WebElement link_ActLoggedIn_ele;
+	@FindBy(xpath="//ul[@class=\"nav navbar-nav\"]/descendant::a[4]") WebElement lnk_Logout_ele;
 	
+	public void ClickLogOut()
+	{
+		lnk_Logout_ele.click();	
+	}
 	public String PageTitle()
 	{
 		

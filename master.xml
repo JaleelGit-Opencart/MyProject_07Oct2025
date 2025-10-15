@@ -11,7 +11,9 @@
       <parameter name="ExpectedUsername" value="jaleel"/>
     <classes>
       <!--<class name= "testCases.TC_001_RegisterUser"/> -->
-      <class name = "testCases.TC_002_Login_ValidCredentials" />	
+     <!-- <class name = "testCases.TC_002_Login_ValidCredentials" />-->	
+     <!-- <class name="testCases.TC_003_Login_InValidCredentials"/> -->
+     <class name = "testCases.TC_004_LogoutUser"/>
     </classes>	
   </test>
 </suite>

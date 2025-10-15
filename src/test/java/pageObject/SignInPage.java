@@ -19,6 +19,12 @@ public class SignInPage extends BasePage {
 	@FindBy(xpath="//div[@class=\"login-form\"]/descendant::input[2]") WebElement txt_LoginMail_ele;
 	@FindBy(xpath="//div[@class=\"login-form\"]/descendant::input[3]") WebElement txt_LoginPass_ele;
 	@FindBy(xpath="//div[@class=\"login-form\"]/descendant::button") WebElement but_Login_ele;
+	@FindBy(xpath="//input[@type=\"password\"]/following-sibling::p") WebElement label_ErrorMsg_ele;
+	
+	public String PageTitle()
+	{
+		return driver.getTitle();
+	}
 	public Boolean IsSignUpLabelDisplayed()
 	{
 		return label_SignUpLabel_ele.isDisplayed();
@@ -54,5 +60,9 @@ public class SignInPage extends BasePage {
 	public void ClickLogin()
 	{
 		but_Login_ele.click();
+	}
+	public String ErrorMsg()
+	{
+		return label_ErrorMsg_ele.getText().trim();
 	}
 }

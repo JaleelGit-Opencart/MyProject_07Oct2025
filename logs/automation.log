@@ -1,41 +1,14 @@
-13:37:51.760 [main] INFO  testCases.TC_002_Login_ValidCredentials - *** Test Started ***
-13:37:52.742 [main] INFO  testCases.TC_002_Login_ValidCredentials - 'Login to your account' is displayed
-13:41:11.096 [main] INFO  testCases.TC_002_Login_ValidCredentials - *** Test Started ***
-13:41:12.113 [main] INFO  testCases.TC_002_Login_ValidCredentials - 'Login to your account' is displayed
-13:55:14.975 [main] INFO  testCases.TC_002_Login_ValidCredentials - *** Test Started ***
-13:55:17.916 [main] INFO  testCases.TC_002_Login_ValidCredentials - 'Login to your account' is displayed
-13:56:44.331 [main] INFO  testCases.TC_002_Login_ValidCredentials - *** Test Started ***
-13:56:45.471 [main] INFO  testCases.TC_002_Login_ValidCredentials - 'Login to your account' is displayed
-13:57:18.215 [main] INFO  testCases.TC_002_Login_ValidCredentials - *** Test Started ***
-13:57:20.611 [main] INFO  testCases.TC_002_Login_ValidCredentials - 'Login to your account' is displayed
-14:05:37.549 [main] INFO  testCases.TC_002_Login_ValidCredentials - *** Test Started ***
-14:05:39.355 [main] INFO  testCases.TC_002_Login_ValidCredentials - 'Login to your account' is displayed
-14:08:18.020 [main] INFO  testCases.TC_002_Login_ValidCredentials - *** Test Started ***
-14:08:19.761 [main] INFO  testCases.TC_002_Login_ValidCredentials - 'Login to your account' is displayed
-16:08:48.736 [main] INFO  testCases.TC_002_Login_ValidCredentials - *** Test Started ***
-16:09:02.190 [main] INFO  testCases.TC_002_Login_ValidCredentials - *** Test Started ***
-16:09:05.367 [main] INFO  testCases.TC_002_Login_ValidCredentials - 'Login to your account' is displayed
-16:11:41.817 [main] INFO  testCases.TC_002_Login_ValidCredentials - *** Test Started ***
-16:11:43.796 [main] INFO  testCases.TC_002_Login_ValidCredentials - 'Login to your account' is displayed
-16:14:07.319 [main] INFO  testCases.TC_002_Login_ValidCredentials - *** Test Started ***
-16:14:09.823 [main] INFO  testCases.TC_002_Login_ValidCredentials - 'Login to your account' is displayed
-16:14:16.634 [main] INFO  testCases.TC_002_Login_ValidCredentials - LoggedIn success message displayed
-16:14:16.634 [main] INFO  testCases.TC_002_Login_ValidCredentials - *** Test Ended ***
-16:15:32.854 [main] INFO  testCases.TC_002_Login_ValidCredentials - *** Test Started ***
-16:15:35.030 [main] INFO  testCases.TC_002_Login_ValidCredentials - 'Login to your account' is displayed
-16:15:39.664 [main] INFO  testCases.TC_002_Login_ValidCredentials - LoggedIn success message displayed
-16:15:39.666 [main] INFO  testCases.TC_002_Login_ValidCredentials - *** Test Ended ***
-16:16:33.787 [main] INFO  testCases.TC_002_Login_ValidCredentials - *** Test Started ***
-16:16:35.226 [main] INFO  testCases.TC_002_Login_ValidCredentials - 'Login to your account' is displayed
-16:19:08.437 [main] INFO  testCases.TC_002_Login_ValidCredentials - *** Test Started ***
-16:19:10.107 [main] INFO  testCases.TC_002_Login_ValidCredentials - 'Login to your account' is displayed
-16:19:19.919 [main] INFO  testCases.TC_002_Login_ValidCredentials - LoggedIn success message displayed
-16:19:19.921 [main] INFO  testCases.TC_002_Login_ValidCredentials - *** Test Ended ***
-16:26:00.647 [main] INFO  testCases.TC_002_Login_ValidCredentials - *** Test Started ***
-16:26:02.664 [main] INFO  testCases.TC_002_Login_ValidCredentials - 'Login to your account' is displayed
-16:26:13.550 [main] INFO  testCases.TC_002_Login_ValidCredentials - LoggedIn success message displayed
-16:26:13.552 [main] INFO  testCases.TC_002_Login_ValidCredentials - *** Test Ended ***
-16:26:42.476 [main] INFO  testCases.TC_002_Login_ValidCredentials - *** Test Started ***
-16:26:45.133 [main] INFO  testCases.TC_002_Login_ValidCredentials - 'Login to your account' is displayed
-16:26:55.412 [main] INFO  testCases.TC_002_Login_ValidCredentials - LoggedIn success message displayed
-16:26:55.412 [main] INFO  testCases.TC_002_Login_ValidCredentials - *** Test Ended ***
+14:12:54.213 [main] INFO  testCases.TC_004_LogoutUser - *** Test started ***
+14:12:54.237 [main] INFO  testCases.TC_004_LogoutUser - HomePage title is matched
+14:12:55.521 [main] INFO  testCases.TC_004_LogoutUser - 'Login to your account' is displayed
+14:13:00.422 [main] INFO  testCases.TC_004_LogoutUser - Logged in successfully
+14:13:02.872 [main] INFO  testCases.TC_004_LogoutUser - Clicked Logout
+14:13:02.882 [main] INFO  testCases.TC_004_LogoutUser - Re-directed to HomePage
+14:13:02.882 [main] INFO  testCases.TC_004_LogoutUser - *** Test ended ***
+14:14:44.792 [main] INFO  testCases.TC_004_LogoutUser - *** Test started ***
+14:14:44.861 [main] INFO  testCases.TC_004_LogoutUser - HomePage title is matched
+14:14:47.524 [main] INFO  testCases.TC_004_LogoutUser - 'Login to your account' is displayed
+14:14:52.352 [main] INFO  testCases.TC_004_LogoutUser - Logged in successfully
+14:14:53.944 [main] INFO  testCases.TC_004_LogoutUser - Clicked Logout
+14:14:53.960 [main] INFO  testCases.TC_004_LogoutUser - Re-directed to HomePage
+14:14:53.960 [main] INFO  testCases.TC_004_LogoutUser - *** Test ended ***

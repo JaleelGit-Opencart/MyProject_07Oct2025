@@ -8,13 +8,13 @@
     <parameter name="browser" value="chrome"/>
     <parameter name="ExpectedUsername" value="jaleel"/>
     <classes>
-      <class name="testCases.TC_002_Login_ValidCredentials">
+      <class name="testCases.TC_004_LogoutUser">
         <methods>
-          <include name="LoginWithValidCredentials" invocation-numbers="0"/>
           <include name="tearDown"/>
           <include name="SetUp"/>
+          <include name="LogoutUser" invocation-numbers="0"/>
         </methods>
-      </class> <!-- testCases.TC_002_Login_ValidCredentials -->
+      </class> <!-- testCases.TC_004_LogoutUser -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
