@@ -8,4 +8,5 @@ C:\Users\oneba\Downloads\Eclipse_workspace\MyProject_Oct07\src\test\java\testCas
 C:\Users\oneba\Downloads\Eclipse_workspace\MyProject_Oct07\src\test\java\testCases\TC_002_Login_ValidCredentials.java
 C:\Users\oneba\Downloads\Eclipse_workspace\MyProject_Oct07\src\test\java\testCases\TC_003_Login_InValidCredentials.java
 C:\Users\oneba\Downloads\Eclipse_workspace\MyProject_Oct07\src\test\java\testCases\TC_004_LogoutUser.java
+C:\Users\oneba\Downloads\Eclipse_workspace\MyProject_Oct07\src\test\java\testCases\TC_005_RegUser_ExistingEmail.java
 C:\Users\oneba\Downloads\Eclipse_workspace\MyProject_Oct07\src\test\java\utilities\ExtentReportManager.java

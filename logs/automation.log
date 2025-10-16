@@ -1,14 +1,10 @@
-14:12:54.213 [main] INFO  testCases.TC_004_LogoutUser - *** Test started ***
-14:12:54.237 [main] INFO  testCases.TC_004_LogoutUser - HomePage title is matched
-14:12:55.521 [main] INFO  testCases.TC_004_LogoutUser - 'Login to your account' is displayed
-14:13:00.422 [main] INFO  testCases.TC_004_LogoutUser - Logged in successfully
-14:13:02.872 [main] INFO  testCases.TC_004_LogoutUser - Clicked Logout
-14:13:02.882 [main] INFO  testCases.TC_004_LogoutUser - Re-directed to HomePage
-14:13:02.882 [main] INFO  testCases.TC_004_LogoutUser - *** Test ended ***
-14:14:44.792 [main] INFO  testCases.TC_004_LogoutUser - *** Test started ***
-14:14:44.861 [main] INFO  testCases.TC_004_LogoutUser - HomePage title is matched
-14:14:47.524 [main] INFO  testCases.TC_004_LogoutUser - 'Login to your account' is displayed
-14:14:52.352 [main] INFO  testCases.TC_004_LogoutUser - Logged in successfully
-14:14:53.944 [main] INFO  testCases.TC_004_LogoutUser - Clicked Logout
-14:14:53.960 [main] INFO  testCases.TC_004_LogoutUser - Re-directed to HomePage
-14:14:53.960 [main] INFO  testCases.TC_004_LogoutUser - *** Test ended ***
+15:40:00.117 [main] INFO  testCases.TC_005_RegUser_ExistingEmail - *** Test Started ***
+15:40:00.155 [main] INFO  testCases.TC_005_RegUser_ExistingEmail - HomePage title is matched....
+15:40:02.254 [main] INFO  testCases.TC_005_RegUser_ExistingEmail - SignUp is displayed....
+15:40:03.728 [main] INFO  testCases.TC_005_RegUser_ExistingEmail - Error message 'Email already exists' is displayed....
+15:40:03.728 [main] INFO  testCases.TC_005_RegUser_ExistingEmail - *** Test ended ***
+15:40:43.532 [main] INFO  testCases.TC_005_RegUser_ExistingEmail - *** Test Started ***
+15:40:43.576 [main] INFO  testCases.TC_005_RegUser_ExistingEmail - HomePage title is matched....
+15:40:47.247 [main] INFO  testCases.TC_005_RegUser_ExistingEmail - SignUp is displayed....
+15:40:49.090 [main] INFO  testCases.TC_005_RegUser_ExistingEmail - Error message 'Email already exists' is displayed....
+15:40:49.092 [main] INFO  testCases.TC_005_RegUser_ExistingEmail - *** Test ended ***

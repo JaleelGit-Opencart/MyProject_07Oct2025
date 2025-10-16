@@ -20,6 +20,7 @@ public class SignInPage extends BasePage {
 	@FindBy(xpath="//div[@class=\"login-form\"]/descendant::input[3]") WebElement txt_LoginPass_ele;
 	@FindBy(xpath="//div[@class=\"login-form\"]/descendant::button") WebElement but_Login_ele;
 	@FindBy(xpath="//input[@type=\"password\"]/following-sibling::p") WebElement label_ErrorMsg_ele;
+	@FindBy(xpath="//form[@action=\"/signup\"]/child::p") WebElement label_EmailExists_ele;
 	
 	public String PageTitle()
 	{
@@ -64,5 +65,9 @@ public class SignInPage extends BasePage {
 	public String ErrorMsg()
 	{
 		return label_ErrorMsg_ele.getText().trim();
+	}
+	public String EmailExists()
+	{
+		return label_EmailExists_ele.getText();
 	}
 }
